@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    cursor: url(images/pointer.png),auto;
+    
+}
+.logo img{
+    width: 5%;
+    border: 1px solid white;
+    border-radius: 200px;
+    display: flex;
+}
+.elements{
+    display: flex;
+    color: white;
+    
+    padding: 10px;
+}
+
+.navbar{
+    background-blend-mode: darken;
+    background: url(images/home.jpg);
+    background-size: cover;
+    height: 200px;
+    position: sticky;
+    cursor: pointer;
+    top: 0;
+}
+.rightnav{
+    text-align: right;
+    
+    
+    
+}
+.navlist{
+    display: flex;
+    
+}
+#search{
+    top: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    align-content: flex-start;
+}
+.btn{
+    
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: black;
+}
+.btn:hover{
+    color: transparent;
+    
+}
+.menu{
+    display: none;
+    
+}
+.btn2{
+    padding: 9px; 
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: black;
+}
+.box-main{
+    background: url(images/web%20cover.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 700px;
+    
+}
+.text-big{
+    font-size: 35px;
+    text-align: center;
+     color: azure;
+    font-style: italic;
+}
+.text-s{
+    font-size: 50px;
+    text-align: center;
+    color: azure;
+    font-style: italic;
+}
+.text-small{
+    font-size: 20px;
+    text-align: center;
+    color: azure;
+    font-style: italic;
+}
+.sec1{
+    background: url(images/webpic6.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 700px;
+    
+    
+    
+    
+}
+.sec2{
+    background: url(images/blue.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 700px;
+    
+    
+}
+.sectiontag{
+    font-size: 50px;
+    text-align: center;
+    color: azure;
+    font-style: italic;
+    
+    
+}
+.sectionsubtag{
+    font-size: 20px;
+    text-align: center;
+    color: azure;
+    font-style: italic;
+    
+    
+    
+}
+.sectionsubtag1{
+    font-size: 20px;
+    text-align: center;
+    color: saddlebrown;
+    font-style: italic;
+    
+    
+    
+}
+.sectiontag1{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    font-style: italic;
+    
+    
+}
+.contact{
+    height: 800px;
+    background: url(images/headphonepic.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    
+    
+}
+.form input{
+    text-align: center; 
+    padding: 15px 60px;
+    margin: 7px 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 14px;
+    justify-content: center;
+    
+    
+}
+.dark{
+    padding: 9px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    text-align: center;
+}
+.dark:hover{
+    color: black;
+    
+}
+.copy{
+    height: 50px;
+    background: black;
+    color: whitesmoke;
+}
+.image2{
+    text-align: left;
+    
+    
+    
+}
+.text-center{
+    text-align: center;
+    
+    
+    
+}
+.form{
+    text-align: center;
+    
+    
+    
+}
+.concern{
+    padding: 30px 60px;
+    
+    
+    
+}
+#menulist{
+    color: black;
+    display: flex;
+    padding: 5px;
+    font-style: italic;
+    text-align: center;
+    width: 20%;
+}
+.elements li a{
+    color: whitesmoke;
+    display: flex;
+    padding: 25px;
+    text-align: center;
+    width: 20%;
+    font-size: 15px;
+    height: 10px;
+    text-decoration: none;
+}
+.elements li{
+    list-style: none;
+    
+    
+}
+.elements li a:hover{
+    color: black;
+    
+    
+    
+}
+.btn2:hover{
+    color: transparent;
+    
+    
+    
+}
+.navbar1{
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    
+}
+.icon{
+    color: blue;
+    text-align: right;
+    cursor: pointer;
+    
+}
+.fa-heart{
+    color: red;
+    
+    
+}
+.icon:hover{
+    color: white;
+    
+}
+/*@media only screen and(max-width:1140px){
+    .elements li a{
+        height: 10px;
+        flex-direction: column;
+    }
+    
+    .icon{
+        color: blue;
+        text-align: right;
+        cursor: pointer;
+    
+    }
+    .navbar1{
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+    
+    }
+    .text-center{
+        text-align: center;
+    
+    
+    
+    }
+    .form{
+        text-align: center;
+    
+    
+    
+    }
+    .dark:hover{
+        color: black;
+    
+    }
+    .navlist{
+        flex-direction: column;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
